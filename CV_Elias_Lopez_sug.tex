@@ -1,0 +1,167 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+%\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\documentclass[11pt,a4paper]{moderncv}
+% moderncv themes
+\usepackage{setspace}
+\usepackage{textcomp}
+%\usepackage{marvosym}
+
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{grey}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+%\name{Elías Arnaldo,}{López}
+\name{Elías Arnaldo,}{López}
+\title{Currículum Vit\ae}                               % optional, remove / comment the line if not wanted
+\address{Damian Torino 151}{Salta Capital, C.P.4400}{Argentina}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{0387-155-708334}                   % optional, remove / comment the line if not wanted
+\phone[fixed]{0387-4-233532}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{eliasarnaldolopez@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+\extrainfo{\textbf{Abogado}\\
+\textbf{DNI:} 34.066.641\\
+}                 % optional, remove / comment the line if not wanted
+\photo[105pt][0.0pt]{foto_cv}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{\textsc{ipsa scientia potestas est}}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage[•]{•}{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{\textsc{Título de Grado}}
+  \cventry{2015}{Abogado}{Universidad Católica de Salta}{Salta, Argentina}{}{}
+  
+\section{\textsc{Educación de Posgrado}}
+  \cventry{En curso}{Diplomatura en Asuntos Tributarios y Aduaneros}{Facultad de Ciencias Jurídicas de la Universidad Católica de Salta}{Salta, Argentina}{}{a cargo del Dr. Gustavo Montoya. Proyecto de Trabajo Final aprobado y en etapa de realización. Tema "Infracciones Tributarias en la Ley 11.683"}
+
+\section{\textsc{Educación Secundaria y de Pregrado}}
+  \cventry{En curso}{Curso de Inglés Nivel 2}{Centro de Lenguas de la Universidad Nacional de Salta}{Salta, Argentina}{}{}
+  
+  \cventry{2007}{Economía y Gestión de las Organizaciones}{Colegio Salesiano Ángel Zerda}{Salta, Argentina}{\textit{Economía y Gestión de las Organizaciones}}{Formación de competencias técnicas, prácticas y sociales y estratégicas que permitan comprender y operar en las organizaciones según la realidad cambiante de hoy.}
+  
+\section{\textsc{Cursos}}
+
+ 
+\cventry{Octubre de 2014}{Infracciones y Sanciones Tributarias (Nacionales y
+Provinciales)-Ley Penal Tributaria y Previsional}{Departamento de Formación Continua de la Escuela de la Magistratura}{Salta, Argentina}{}{}
+
+\cventry{Septiembre de 2014}{Ingles Nivel 1 (Res. CS N\textdegree 282/08)}{Universidad Nacional de Salta - Centro de Lenguas}{Salta, Argentina}{}{}
+
+\cventry{Noviembre de 2013}{I Congreso Provincial ``El Derecho Procesal Penal en Salta}{Asociación Argentina de Derecho Procesal. Escuela de la Abogacía}{Salta, Argentina}{}{}
+
+\cventry{Julio del 2013}{El nuevo sistema procesal penal aspectos teóricos y prácticos}{Defensoría General. Ministerio Público de Salta}{Salta, Argentina}{}{}
+
+\cventry{Abril de 2012}{Jornadas sobre la Ley de Procedimientos Administrativos de la Provincia de Salta. Ley 5.384}{Instituto de Derecho Administrativo de Salta}{Salta, Argentina}{}{}
+
+\cventry{Mayo de 2011}{Primer Jornadas Regionales sobre procedimiento laboral}{Asociación Argentina de Derecho del Trabajo y la Seguridad Social}{Salta, Argentina}{}{}
+
+\cventry{Noviembre de 2010}{Ciclo Internacional: Acceso a la Justicia de Grupos Vulnerables. Reforma Judicial}{Ministerio de Justicia de la Provincia de Salta}{Salta, Argentina}{}{}
+
+\section{\textsc{Experiencia Laboral}}
+\subsection{\textsc{Vocacional}}
+
+\cventry{2015-Actualidad}{Abogado}{Estudio Viola & Asociados}{Salta, Argentina}{}{Referencias al 0387-4217968 o 0387-4218063 Dr. Jose Viola de 09.00 a 13.00 y 16.00 a 19.00 de Lunes a Viernes.}
+
+\cventry{2014-2014}{Pasante}{Juzgado de Ejecución y Detenidos, Segunda Nominación.}{Salta, Argentina}{}{A cargo del Dr. Federico Javier Armiñana Dohorman, Juez, y Secretaría, a cargo de la Dra. Silvia Alejandra Miy y la Dra. Gonza Meredith Juanita. Desde Abril de 2014 a Diciembre de 2014.}
+
+\cventry{2013-2014}{Alumno}{Consultorio Jurídico de la Universidad Católica de Salta}{Salta, Argentina}{}{A través de la materia ``Practica Forense`` a cargo de la Dra. Magdalena Muela y de la Dra. Claudia de la Rosa, desde Marzo de 2013 a Marzo de 2014.}
+
+\section{\textsc{Idiomas}}
+\cvitemwithcomment{Inglés}{Lecto-comprensión}{Nivel 2 UNSa}
+\cvitemwithcomment{Español}{Fluido}{Lengua de Origen}
+
+\section{\textsc{Software}}
+\cvitemwithcomment{\textsc{Iurix}}{-}{Muy Bueno}
+\cvitemwithcomment{\textsc{LexDoctor}}{9.0}{Bueno}
+\cvitemwithcomment{\textsc{Microsoft Office}}{2003/2007/2013}{Muy Bueno}
+\cvitemwithcomment{\textsc{MailChimp}}{web-service}{Muy Bueno}
+
+\section{\textsc{Intereses}}
+\cvitem{\textit{Derecho Tributario}}{Suscrito a la revista mensual ``Consultor Tributario. Editorial Errepar``.}
+
+
+
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+\clearpage
+%-----       letter       ---------------------------------------------------------
+% recipient data
+
+\recipient{Secretaría Académica de 
+Investigación y Posgrado (Área de Ingeniería)}{ Facultad de Ciencias Exactas Físicas y Naturales \\Av.Velez Sarsfield 299.\\Ciudad Universitaria.\\Córdoba (Capital), Argentina}
+\date{Córdoba, Viernes 5 de Diciembre de 2014.}
+\opening{De mi mayor consideración:}
+\closing{Sin más particulares y a la espera de su respuesta le saludo atentamente.}
+\enclosure[Adjunto]{Curriculum Vit\ae e Historia Académica {}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+
+Tengo el agrado de dirigirme a Ud. con el fin de comunicarle que es de mi completo interés ser considerado en la convocatoria para la selección de para cubrir.\\
+Me presento como una persona activa, responsable, amigable con aptitud para el trabajo en grupo y el liderazgo de proyectos.
+Si fuera necesario podría acercarme personalmente por cualquier consulta adicional o entrevista. Detallo mis datos personales y de contacto en el margen superior de la presente.
+
+
+\makeletterclosing
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `template.tex'.
+\recipient{A quien corresponda:}
+\date{Salta, Miercoles 11 de Marzo de 2015.}
+\opening{De mi mayor consideración:}
+\closing{Sin más particulares y a la espera de su respuesta le saludo atentamente.}
+\enclosure[Adjunto]{Curriculum Vit\ae e Historia Académica {}}        % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle 
+Tengo el agrado de dirigirme a Ud. con el fin de comunicarle que es de mi completo interés ser considerado en la convocatoria para la selección de para cubrir 
+Me presento como una persona activa, responsable, amigable con aptitud para el trabajo en grupo y el liderazgo de proyectos.
+Si fuera necesario podría acercarme personalmente por cualquier consulta adicional o entrevista. Detallo mis datos personales y de contacto en el margen superior de la presente.
+%A tal efecto adjunto, junto a la presente, mi CV.\\
+%y amplio manejo de software de oficina
+\makeletterclosing
